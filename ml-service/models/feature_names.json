@@ -1,0 +1,20 @@
+[
+  "step",
+  "hour_of_day",
+  "day_of_month",
+  "amount",
+  "amount_log",
+  "oldbalanceOrg",
+  "oldbalanceDest",
+  "amount_to_oldbalance_ratio",
+  "diff_orig_balance",
+  "is_zero_orig_balance",
+  "is_zero_dest_balance",
+  "is_exact_balance_drain",
+  "dest_is_merchant",
+  "type_CASH_OUT",
+  "type_TRANSFER",
+  "type_PAYMENT",
+  "type_CASH_IN",
+  "type_DEBIT"
+]

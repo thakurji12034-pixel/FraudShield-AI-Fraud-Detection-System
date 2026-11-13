@@ -1,0 +1,102 @@
+{
+  "Logistic Regression": {
+    "algorithm": "Logistic Regression",
+    "accuracy": 0.9995,
+    "precision": 1.0,
+    "recall": 0.9968,
+    "f1_score": 0.9984,
+    "roc_auc": 1.0,
+    "pr_auc": 1.0,
+    "false_positive_rate": 0.0,
+    "confusion_matrix": {
+      "true_negative": 10153,
+      "false_positive": 0,
+      "false_negative": 6,
+      "true_positive": 1896
+    },
+    "training_time_seconds": 0.83,
+    "prediction_latency_ms": 0.0001,
+    "test_sample_size": 12055,
+    "actual_fraud_in_test": 1902
+  },
+  "Decision Tree": {
+    "algorithm": "Decision Tree",
+    "accuracy": 0.9998,
+    "precision": 0.9995,
+    "recall": 0.9989,
+    "f1_score": 0.9992,
+    "roc_auc": 0.9995,
+    "pr_auc": 0.9991,
+    "false_positive_rate": 0.0001,
+    "confusion_matrix": {
+      "true_negative": 10152,
+      "false_positive": 1,
+      "false_negative": 2,
+      "true_positive": 1900
+    },
+    "training_time_seconds": 3.31,
+    "prediction_latency_ms": 0.0002,
+    "test_sample_size": 12055,
+    "actual_fraud_in_test": 1902
+  },
+  "Random Forest": {
+    "algorithm": "Random Forest",
+    "accuracy": 0.9999,
+    "precision": 1.0,
+    "recall": 0.9995,
+    "f1_score": 0.9997,
+    "roc_auc": 1.0,
+    "pr_auc": 1.0,
+    "false_positive_rate": 0.0,
+    "confusion_matrix": {
+      "true_negative": 10153,
+      "false_positive": 0,
+      "false_negative": 1,
+      "true_positive": 1901
+    },
+    "training_time_seconds": 9.41,
+    "prediction_latency_ms": 0.0047,
+    "test_sample_size": 12055,
+    "actual_fraud_in_test": 1902
+  },
+  "XGBoost": {
+    "algorithm": "XGBoost",
+    "accuracy": 0.9999,
+    "precision": 1.0,
+    "recall": 0.9995,
+    "f1_score": 0.9997,
+    "roc_auc": 1.0,
+    "pr_auc": 1.0,
+    "false_positive_rate": 0.0,
+    "confusion_matrix": {
+      "true_negative": 10153,
+      "false_positive": 0,
+      "false_negative": 1,
+      "true_positive": 1901
+    },
+    "training_time_seconds": 3.62,
+    "prediction_latency_ms": 0.0012,
+    "test_sample_size": 12055,
+    "actual_fraud_in_test": 1902
+  },
+  "Isolation Forest": {
+    "algorithm": "Isolation Forest",
+    "accuracy": 0.6596,
+    "precision": 0.3028,
+    "recall": 0.8885,
+    "f1_score": 0.4516,
+    "roc_auc": 0.8929,
+    "pr_auc": 0.7615,
+    "false_positive_rate": 0.3833,
+    "confusion_matrix": {
+      "true_negative": 6261,
+      "false_positive": 3892,
+      "false_negative": 212,
+      "true_positive": 1690
+    },
+    "training_time_seconds": 6.33,
+    "prediction_latency_ms": 0.0235,
+    "test_sample_size": 12055,
+    "actual_fraud_in_test": 1902
+  }
+}

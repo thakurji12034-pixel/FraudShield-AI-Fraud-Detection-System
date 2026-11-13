@@ -1,0 +1,116 @@
+# ==============================================================================
+# FraudShield AI - Git Ignore Configuration
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# 1. Large Datasets (PaySim Financial Dataset ~500MB)
+# ------------------------------------------------------------------------------
+*.csv
+PS_20174392719_1491204439457_log.csv
+*.tsv
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.zip
+*.tar.gz
+*.7z
+
+# ------------------------------------------------------------------------------
+# 2. Node.js & React Frontend
+# ------------------------------------------------------------------------------
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+dist-ssr/
+frontend/dist-ssr/
+.eslintcache
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm
+
+# ------------------------------------------------------------------------------
+# 3. Python & Virtual Environments (ml-service)
+# ------------------------------------------------------------------------------
+fenv/
+ml-service/fenv/
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Python Bytecode & Caches
+__pycache__/
+*/__pycache__/
+ml-service/__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints
+
+# ------------------------------------------------------------------------------
+# 4. Java & Maven (backend)
+# ------------------------------------------------------------------------------
+target/
+backend/target/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Local H2 / SQLite / Embedded Databases
+backend/data/
+data/
+*.db
+*.mv.db
+*.lock.db
+*.trace.db
+
+# ------------------------------------------------------------------------------
+# 5. Environment Variables & Secrets
+# ------------------------------------------------------------------------------
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.jks
+
+# ------------------------------------------------------------------------------
+# 6. IDEs & Operating System Artifacts
+# ------------------------------------------------------------------------------
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+.nb-gradle/
+nbproject/
+
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+*.tmp
+*.temp
+*.log
+logs/
+*.swp
+*~
